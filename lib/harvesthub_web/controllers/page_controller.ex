@@ -9,12 +9,12 @@ defmodule HarvesthubWeb.PageController do
     render(conn, :farmer_sign_up, layout: false)
   end
 
-  def wholesaler_sign_up(conn, _params) do
-    render(conn, :wholesaler_sign_up, layout: false)
+  def buyer_sign_up(conn, _params) do
+    render(conn, :buyer_sign_up, layout: false)
   end
 
-  def wholesalers(conn, _params) do
-    render(conn, :wholesalers, layout: false)
+  def buyers(conn, _params) do
+    render(conn, :buyers, layout: false)
   end
 
   def farmers(conn, _params) do

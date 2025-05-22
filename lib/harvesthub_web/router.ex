@@ -19,9 +19,9 @@ defmodule HarvesthubWeb.Router do
 
     get "/", PageController, :home
     get "/farmer-sign-up", PageController, :farmer_sign_up
-    get "/wholesaler-sign-up", PageController, :wholesaler_sign_up
+    get "/buyer-sign-up", PageController, :buyer_sign_up
 
-    get "/wholesalers", PageController, :wholesalers
+    get "/buyers", PageController, :buyers
     get "/farmers", PageController, :farmers
   end
 
